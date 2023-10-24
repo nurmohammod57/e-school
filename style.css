@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #F0FFF0;
+    padding-top: 40px;
+}
+.nav-item a{
+    margin:  0 20px;
+    color: black;
+}
+section{
+    padding: 90px 0;
+}
+#hero-section{
+    background: #F0FFF0;
+}
+.category{
+    width: 270px;
+    padding: 30px;
+    background: #F0FFF0;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.category:hover{
+    background: #fff;
+    cursor: pointer;
+}
+.category > img{
+    margin-bottom: 25px;
+}
+.category > h3{
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+.category > h5{
+    font-size: 16px;
+}
+.on-course{
+    margin-bottom: 80px;
+}
+.card{
+    border-radius: 14px;
+    transition: all .5s;
+}
+.card:hover{
+    background: #F0FFF0;
+    cursor: pointer;
+}
+.card-body > h5{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.card-body > p{
+    font-size: 16px;
+}
+.testi{
+    margin-bottom: 80px;
+}
+.footer-menu h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.custom-list-group a{
+    font-size: 16px;
+    margin: 5px 0;
+}
+#footer-section{
+    background: #282531;
+}
+.footer-col{
+    padding: 0 40px;
+}
